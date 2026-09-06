@@ -1,0 +1,150 @@
+=============================================================
+   🛡️ STARTING ENHANCED MULTIMODAL CROSS-VALIDATION PIPELINE 
+=============================================================
+
+🏁 RUNNING COMPLETE GROUP CROSS-VALIDATION FOLD 1 / 5
+-------------------------------------------------------------
+[*] Creating Hybrid Model: Building Deep ConvNeXt local feature extractor...
+    --> Extracted ConvNeXt final stage channel size: 768
+[*] Creating Hybrid Model: Building Swin Transformer contextual block...
+[*] Creating Hybrid Model: Building Clinical Text MLP encoder...
+[✓] Hybrid network architecture generated successfully!
+ [*] Epoch [1/3] In Progress...
+    -> Step [400/1972] | Step Weighted Loss: 0.0675
+    -> Step [800/1972] | Step Weighted Loss: 0.0108
+    -> Step [1200/1972] | Step Weighted Loss: 0.0685
+    -> Step [1600/1972] | Step Weighted Loss: 0.0011
+ [✓] Epoch [1/3] Completed | Average Epoch Loss: 0.0558
+ [*] Epoch [2/3] In Progress...
+    -> Step [400/1972] | Step Weighted Loss: 0.0254
+    -> Step [800/1972] | Step Weighted Loss: 0.0001
+    -> Step [1200/1972] | Step Weighted Loss: 0.0002
+    -> Step [1600/1972] | Step Weighted Loss: 0.0002
+ [✓] Epoch [2/3] Completed | Average Epoch Loss: 0.0126
+ [*] Epoch [3/3] In Progress...
+    -> Step [400/1972] | Step Weighted Loss: 0.0027
+    -> Step [800/1972] | Step Weighted Loss: 0.0005
+    -> Step [1200/1972] | Step Weighted Loss: 0.0000
+    -> Step [1600/1972] | Step Weighted Loss: 0.0004
+ [✓] Epoch [3/3] Completed | Average Epoch Loss: 0.0079
+ [✓] Fold 1 Summary -> Accuracy: 94.95% | Macro F1: 0.9463 | AUC: 0.9876
+
+🏁 RUNNING COMPLETE GROUP CROSS-VALIDATION FOLD 2 / 5
+-------------------------------------------------------------
+[*] Creating Hybrid Model: Building Deep ConvNeXt local feature extractor...
+    --> Extracted ConvNeXt final stage channel size: 768
+[*] Creating Hybrid Model: Building Swin Transformer contextual block...
+[*] Creating Hybrid Model: Building Clinical Text MLP encoder...
+[✓] Hybrid network architecture generated successfully!
+ [*] Epoch [1/3] In Progress...
+    -> Step [400/1972] | Step Weighted Loss: 0.0461
+    -> Step [800/1972] | Step Weighted Loss: 0.0169
+    -> Step [1200/1972] | Step Weighted Loss: 0.0208
+    -> Step [1600/1972] | Step Weighted Loss: 0.0111
+ [✓] Epoch [1/3] Completed | Average Epoch Loss: 0.0529
+ [*] Epoch [2/3] In Progress...
+    -> Step [400/1972] | Step Weighted Loss: 0.0002
+    -> Step [800/1972] | Step Weighted Loss: 0.0014
+    -> Step [1200/1972] | Step Weighted Loss: 0.0000
+    -> Step [1600/1972] | Step Weighted Loss: 0.0056
+ [✓] Epoch [2/3] Completed | Average Epoch Loss: 0.0105
+ [*] Epoch [3/3] In Progress...
+    -> Step [400/1972] | Step Weighted Loss: 0.0093
+    -> Step [800/1972] | Step Weighted Loss: 0.0000
+    -> Step [1200/1972] | Step Weighted Loss: 0.0000
+    -> Step [1600/1972] | Step Weighted Loss: 0.0004
+ [✓] Epoch [3/3] Completed | Average Epoch Loss: 0.0069
+ [✓] Fold 2 Summary -> Accuracy: 91.83% | Macro F1: 0.9183 | AUC: 0.9519
+
+🏁 RUNNING COMPLETE GROUP CROSS-VALIDATION FOLD 3 / 5
+-------------------------------------------------------------
+[*] Creating Hybrid Model: Building Deep ConvNeXt local feature extractor...
+    --> Extracted ConvNeXt final stage channel size: 768
+[*] Creating Hybrid Model: Building Swin Transformer contextual block...
+[*] Creating Hybrid Model: Building Clinical Text MLP encoder...
+[✓] Hybrid network architecture generated successfully!
+ [*] Epoch [1/3] In Progress...
+    -> Step [400/1971] | Step Weighted Loss: 0.1098
+    -> Step [800/1971] | Step Weighted Loss: 0.0700
+    -> Step [1200/1971] | Step Weighted Loss: 0.0321
+    -> Step [1600/1971] | Step Weighted Loss: 0.0012
+ [✓] Epoch [1/3] Completed | Average Epoch Loss: 0.0584
+ [*] Epoch [2/3] In Progress...
+    -> Step [400/1971] | Step Weighted Loss: 0.0000
+    -> Step [800/1971] | Step Weighted Loss: 0.0299
+    -> Step [1200/1971] | Step Weighted Loss: 0.0015
+    -> Step [1600/1971] | Step Weighted Loss: 0.0000
+ [✓] Epoch [2/3] Completed | Average Epoch Loss: 0.0092
+ [*] Epoch [3/3] In Progress...
+    -> Step [400/1971] | Step Weighted Loss: 0.0001
+    -> Step [800/1971] | Step Weighted Loss: 0.0011
+    -> Step [1200/1971] | Step Weighted Loss: 0.0000
+    -> Step [1600/1971] | Step Weighted Loss: 0.0003
+ [✓] Epoch [3/3] Completed | Average Epoch Loss: 0.0102
+ [✓] Fold 3 Summary -> Accuracy: 90.01% | Macro F1: 0.9000 | AUC: 0.9812
+
+🏁 RUNNING COMPLETE GROUP CROSS-VALIDATION FOLD 4 / 5
+-------------------------------------------------------------
+[*] Creating Hybrid Model: Building Deep ConvNeXt local feature extractor...
+    --> Extracted ConvNeXt final stage channel size: 768
+[*] Creating Hybrid Model: Building Swin Transformer contextual block...
+[*] Creating Hybrid Model: Building Clinical Text MLP encoder...
+[✓] Hybrid network architecture generated successfully!
+ [*] Epoch [1/3] In Progress...
+    -> Step [400/1970] | Step Weighted Loss: 0.0174
+    -> Step [800/1970] | Step Weighted Loss: 0.0080
+    -> Step [1200/1970] | Step Weighted Loss: 0.0603
+    -> Step [1600/1970] | Step Weighted Loss: 0.0555
+ [✓] Epoch [1/3] Completed | Average Epoch Loss: 0.0592
+ [*] Epoch [2/3] In Progress...
+    -> Step [400/1970] | Step Weighted Loss: 0.0002
+    -> Step [800/1970] | Step Weighted Loss: 0.0035
+    -> Step [1200/1970] | Step Weighted Loss: 0.0004
+    -> Step [1600/1970] | Step Weighted Loss: 0.0029
+ [✓] Epoch [2/3] Completed | Average Epoch Loss: 0.0123
+ [*] Epoch [3/3] In Progress...
+    -> Step [400/1970] | Step Weighted Loss: 0.0476
+    -> Step [800/1970] | Step Weighted Loss: 0.0007
+    -> Step [1200/1970] | Step Weighted Loss: 0.0000
+    -> Step [1600/1970] | Step Weighted Loss: 0.0001
+ [✓] Epoch [3/3] Completed | Average Epoch Loss: 0.0070
+ [✓] Fold 4 Summary -> Accuracy: 93.80% | Macro F1: 0.9374 | AUC: 0.9831
+
+🏁 RUNNING COMPLETE GROUP CROSS-VALIDATION FOLD 5 / 5
+-------------------------------------------------------------
+[*] Creating Hybrid Model: Building Deep ConvNeXt local feature extractor...
+    --> Extracted ConvNeXt final stage channel size: 768
+[*] Creating Hybrid Model: Building Swin Transformer contextual block...
+[*] Creating Hybrid Model: Building Clinical Text MLP encoder...
+[✓] Hybrid network architecture generated successfully!
+ [*] Epoch [1/3] In Progress...
+    -> Step [400/1971] | Step Weighted Loss: 0.0228
+    -> Step [800/1971] | Step Weighted Loss: 0.0011
+    -> Step [1200/1971] | Step Weighted Loss: 0.0472
+    -> Step [1600/1971] | Step Weighted Loss: 0.0217
+ [✓] Epoch [1/3] Completed | Average Epoch Loss: 0.0534
+ [*] Epoch [2/3] In Progress...
+    -> Step [400/1971] | Step Weighted Loss: 0.0007
+    -> Step [800/1971] | Step Weighted Loss: 0.0131
+    -> Step [1200/1971] | Step Weighted Loss: 0.0000
+    -> Step [1600/1971] | Step Weighted Loss: 0.0136
+ [✓] Epoch [2/3] Completed | Average Epoch Loss: 0.0115
+ [*] Epoch [3/3] In Progress...
+    -> Step [400/1971] | Step Weighted Loss: 0.0000
+    -> Step [800/1971] | Step Weighted Loss: 0.0048
+    -> Step [1200/1971] | Step Weighted Loss: 0.0000
+    -> Step [1600/1971] | Step Weighted Loss: 0.0000
+ [✓] Epoch [3/3] Completed | Average Epoch Loss: 0.0080
+ [✓] Fold 5 Summary -> Accuracy: 90.53% | Macro F1: 0.9051 | AUC: 0.9624
+
+=============================================================
+      📊 OPTIMIZED LEAKAGE-FREE CROSS-VALIDATION RESULTS       
+=============================================================
+| Average Accuracy:    92.22% (±1.89%)
+| Average Macro F1:    0.9214
+| Average Precision:   0.9081
+| Average Recall:      0.9492
+| Average AUC-ROC:     0.9732
+=============================================================
+
+[*] Rendering performance strength dashboards...
